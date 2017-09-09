@@ -62,10 +62,10 @@ namespace ContactsApp
                 // cac dong tiep theo thong tin danh ba
                 foreach (Contact c in danhba)
                     writer.WriteLine(string.Format("{0}-{1}-{2}-{3}",
-                                                    c.GetHo(),
-                                                    c.GetTen(),
-                                                    c.GetDiaChi(),
-                                                    c.GetSDT()));
+                                                    c.Ho,
+                                                    c.Ten,
+                                                    c.DiaChi,
+                                                    c.SDT));
             }
             return true;
         }
